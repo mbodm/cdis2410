@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDisplayInputSourceDellU2410", "ChangeDisplayInputSourceDellU2410\ChangeDisplayInputSourceDellU2410.csproj", "{79FFB59F-66E8-4447-B7C7-3E4297BE66AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79FFB59F-66E8-4447-B7C7-3E4297BE66AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FFB59F-66E8-4447-B7C7-3E4297BE66AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FFB59F-66E8-4447-B7C7-3E4297BE66AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FFB59F-66E8-4447-B7C7-3E4297BE66AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B260948F-A79E-4BCB-A247-FF21337DCEDB}
+	EndGlobalSection
+EndGlobal
