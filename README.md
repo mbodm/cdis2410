@@ -9,4 +9,4 @@ cdis2410
 - is developed and built with Visual Studio 2022 17.8.5
 - is built and published as a self-contained win-x64 .NET AOT application
 
-#####Have fun.
+#### Have fun.
