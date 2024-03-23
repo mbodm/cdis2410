@@ -3,7 +3,7 @@ A tiny Windows command line tool using DDC to change the input source of my Dell
 
 ![WADH](screenshot.png)
 
-cdis2410
+### cdis2410
 - is a tiny .NET 8 console application
 - uses DDC to change the input source of my Dell U2410 display
 - does this by using the Windows API
