@@ -7,4 +7,4 @@ cdis2410
 - does this by using the Windows API
 - has no dependencies to anything (no 3rd party library or something)
 - is developed and built with Visual Studio 2022 17.8.5
-- is published as .NET AOT application
+- is built and published as a self-contained win-x64 .NET AOT application
