@@ -1,17 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PublishAot>true</PublishAot>
-    <InvariantGlobalization>true</InvariantGlobalization>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>true</PublishAot>
+		<InvariantGlobalization>true</InvariantGlobalization>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <Version>1.0.0</Version>
-    <PlatformTarget>x64</PlatformTarget>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PlatformTarget>x64</PlatformTarget>
+		<AssemblyName>cdis2410</AssemblyName>
+		<Version>1.0.0</Version>
+		<!-- When AOT compilation is active, SourceRevisionId is added to Version, which next setting prevents (see links below). -->
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+	</PropertyGroup>
 
 </Project>
+
+<!-- For some background information to Version and SourceRevisionId in .NET 8 AOT projects please have a look at: -->
+<!-- https://learn.microsoft.com/en-us/dotnet/core/compatibility/sdk/8.0/source-link#new-behavior -->
+<!-- https://stackoverflow.com/questions/77050814/fileversioninfo-productversion-suddenly-contains-git-commit-hash -->
+<!-- https://stackoverflow.com/questions/77562609/how-to-get-package-version-in-net-8-without-having-to-add-includesourcerevision -->
+<!-- https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/#informationalversion -->
